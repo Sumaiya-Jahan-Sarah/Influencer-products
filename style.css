@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
 }
 
 /* header style */
@@ -31,4 +32,48 @@ body {
     height: 24px;
     width: 24px;
     font-size: 22px;
+}
+
+/* header end  */
+/* main body  */
+h1 {
+    font-size: 3em
+}
+
+.first {
+    display: flex;
+    margin: 50px 90px;
+    align-items: center;
+
+}
+
+.top {
+    margin-right: 60px;
+}
+
+.top a {
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    border-radius: 41px;
+}
+
+.arrow {
+    margin-left: 5px;
+}
+
+hr {
+    color: rgb(231, 229, 229);
+
+    width: 70%;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.company-logo {
+    margin: 15px 30px;
 }
