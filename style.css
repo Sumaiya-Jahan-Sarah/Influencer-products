@@ -3,8 +3,7 @@ body {
     color: #3A3A3A;
     background-color: #eeecec;
 
-    margin-left: 2%;
-    margin-right: 10%;
+    margin: 0;
 }
 
 /* header style */
@@ -146,7 +145,8 @@ h3 {
     display: grid;
     justify-content: center;
     text-align: justify;
-
+    color: #000000;
+    margin-right: 5%;
 }
 
 .join {
@@ -155,4 +155,33 @@ h3 {
     padding: 10px 15px;
     text-decoration: none;
     text-align: center;
+}
+
+/* footer */
+footer {
+    background-color: #0A0826;
+    ;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+}
+
+.copy-right {
+    display: block;
+    font-size: 12px;
+}
+
+.social-media {
+    margin-top: 30px;
+}
+
+.media-site {
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #3b3a52;
+
+    padding-top: 10px;
+
 }
