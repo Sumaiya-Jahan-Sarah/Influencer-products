@@ -63,6 +63,7 @@ h1 {
     margin-left: 5px;
 }
 
+/* section 2 */
 hr {
     color: rgb(231, 229, 229);
 
@@ -76,4 +77,33 @@ hr {
 
 .company-logo {
     margin: 15px 30px;
+}
+
+/* section-3 */
+h2 {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 1.9em;
+}
+
+.price {
+    font-size: 25px;
+}
+
+.collection {
+    padding: 10px;
+    background-color: #FFFFFF;
+    box-shadow: lightgray 20px;
+}
+
+.fa-star {
+    color: goldenrod;
+}
+
+.fa-star-half-stroke {
+    color: goldenrod;
 }
