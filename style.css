@@ -2,7 +2,9 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A;
     background-color: #eeecec;
-    ;
+
+    margin-left: 2%;
+    margin-right: 10%;
 }
 
 /* header style */
@@ -130,4 +132,27 @@ h3 {
     font-weight: 900;
     margin-left: 80%;
     margin-top: 40px;
+}
+
+/* section-4 */
+.fourth {
+    display: flex;
+
+
+}
+
+.feature {
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    text-align: justify;
+
+}
+
+.join {
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
 }
